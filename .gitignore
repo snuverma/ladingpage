@@ -1,1 +1,42 @@
-Nothing needs to be added to .gitignore since only a single HTML file (landing-page.html) was added, which is a source file and not a build artifact, dependency, or temporary file.
+```
+# Dependency directories
+vendor/
+node_modules/
+
+# Build and cache directories
+bootstrap/cache/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+storage/logs/
+
+# Environment specific
+.env
+.env.local
+.env.*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Compiled files
+*.php~
+*.js~
+*.css~
+
+# Testing
+.phpunit.result.cache
+
+# Laravel specific
+public/hot
+public/build/
+```
